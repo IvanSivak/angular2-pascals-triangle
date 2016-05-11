@@ -1,0 +1,4 @@
+<nav class="centered">
+  Triangle size = <input type="number" [(ngModel)]="sizeModel" />
+</nav>
+<div *ngIf="valid == false" [innerText]="message" class="centered"></div>

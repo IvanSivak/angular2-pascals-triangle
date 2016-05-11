@@ -1,0 +1,14 @@
+<div>
+  <h2>Angular 2 - Pascal's Triangle</h2>
+  <triangle-params [triangleSize]="6" (sizeChange)="sizeChanged($event);"></triangle-params>
+  <div class="info centered" [style.visibility]="hoverNum == '' ? 'hidden' : 'visible'">
+    <span [innerText]="hoverNum"></span>
+  </div>
+  <div class="nowrap">
+    <div *ngFor="let row of rows" class="centered">
+      <span *ngFor="let num of row" [innerText]="num" class="num-box"
+            (mouseenter)="hoverNum = num"
+            (mouseleave)="hoverNum = ''"></span>
+    </div>
+  </div>
+</div>
