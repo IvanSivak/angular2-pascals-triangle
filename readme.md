@@ -5,12 +5,6 @@
 </p>
 
 <p>
-	<div>
-		Contains these methods:
-	</div>
-	<ul>
-		<li>String permutations</li>
-		<li>Swapping characters</li>
-		<li>Replacing characters at given positions</li>
-	</ul>
+	Example project based on my blog article about new Angular 2 features. You can test the following plunker in order to see the result in action:
+	http://plnkr.co/edit/vinDuAcQLZtn1a7tR5lQ?p=preview
 </p>
